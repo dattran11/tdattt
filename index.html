@@ -496,13 +496,13 @@
 
         function checkPassword() {
             if (password === correctPassword) {
-                alert("Mật khẩu đúng! Chuyển sang bước tiếp theo...");
+                alert("Mật khẩu đúng! Mời Su chuyển sang bước tiếp theo...");
                 window.location.href = "sinhnhat.html";
             } else {
                 passwordInput.classList.add("shake");
                 setTimeout(() => {
                     passwordInput.classList.remove("shake");
-                    alert("Mật khẩu sai! Vui lòng thử lại.");
+                    alert("Mật khẩu sai! Su đáng ghécc.");
                     clearPassword();
                 }, 500);
             }
